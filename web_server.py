@@ -47,9 +47,9 @@ while True:
         # Fill in end
  
 		# Send the content of the requested file to the connection socket
-		for i in range(0, len(outputdata)):
+	#	for i in range(0, len(outputdata)):
 			#print(outputdata[i])
-			connectionSocket.send(bytes(outputdata[i]))
+		connectionSocket.send(outputdata)
 	
 		
 		# Close the client connection socket

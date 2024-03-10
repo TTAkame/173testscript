@@ -1,0 +1,17 @@
+The proxy server is ready to serve...
+Accepted connection from ('127.0.0.1', 38634)
+Received request: GET /helloworld.html HTTP/1.1
+Host: localhost:8888
+User-Agent: curl/7.84.0
+Accept: */*
+
+
+Trying to retrieve /helloworld.html from cache...
+Cache miss for /helloworld.html
+Fetching /helloworld.html from server localhost:6789...
+Sent GET request for /helloworld.html to localhost:6789
+Received response from server for /helloworld.html
+Saving /helloworld.html to cache...
+Saved /helloworld.html to cache successfully.
+Served /helloworld.html to client
+Connection closed with ('127.0.0.1', 38634)
